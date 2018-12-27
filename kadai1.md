@@ -1,11 +1,8 @@
 # 課題１レポート
 
-図1に示す画像を原画像とする．この画像はフリー画像サイト「Pixabay」から引用した画像である．
+図1に示す画像を原画像とする．この画像はフリー画像サイト「Pixabay」から引用した画像である.
 
-ORG=imread('Lenna.png'); % 原画像の入力  
-imagesc(ORG); axis image; % 画像の表示
-
-によって，原画像を読み込み，表示した結果を図１に示す．
+原画像を読み込み，表示した結果を図１に示す．
 ![default](https://user-images.githubusercontent.com/46117925/50482312-46d7de80-0a29-11e9-8d45-e4ebb0b53d80.PNG)  
 図1 原画像
 
