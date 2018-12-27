@@ -25,12 +25,15 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 図3 1/4サンプリング
 
 ![4](https://user-images.githubusercontent.com/46117925/50482500-3d9b4180-0a2a-11e9-97e9-6408b32e0966.PNG)
+
 図4 1/8サンプリング
 
 ![5](https://user-images.githubusercontent.com/46117925/50482523-59064c80-0a2a-11e9-958e-4cc5b8807efe.PNG) 
+
 図5 1/16サンプリング
 
 ![6](https://user-images.githubusercontent.com/46117925/50482546-6f140d00-0a2a-11e9-988b-1eff6192d179.PNG)
+
 図6 1/32サンプリング
 
-このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生する．
+このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生し大きくなっていく事が分かる．
