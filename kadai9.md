@@ -14,7 +14,8 @@ ORG = imnoise(ORG,'salt & pepper',0.02);
 ![2](https://user-images.githubusercontent.com/46117925/50544924-48332200-0c48-11e9-925f-67fb7cc873b4.PNG)  
 図２　ノイズが添付された白黒濃淡画像
 
-以下の手順を用いて平滑化フィルタとメディアンフィルタをノイズ添付画像に適用した。  
+以下の手順を用いて平滑化フィルタとメディアンフィルタをノイズ添付画像に適用した。
+
 IMG = filter2(fspecial('average',3),ORG); % 平滑化フィルタで雑音除去  
 IMG = medfilt2(ORG,[3 3]); % メディアンフィルタで雑音除去
 
