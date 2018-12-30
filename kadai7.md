@@ -28,7 +28,7 @@ imhist(ORG); % 濃度ヒストグラムを生成、表示
 ![3](https://user-images.githubusercontent.com/46117925/50546508-10d66c80-0c6c-11e9-89ec-d6b8ee6ec5c0.PNG)  
 図３　ダイナミックレンジ255の白黒濃淡画像
 
-![4](https://user-images.githubusercontent.com/46117925/50546510-12a03000-0c6c-11e9-8048-78ff37cadd0e.PNG)
+![4](https://user-images.githubusercontent.com/46117925/50546510-12a03000-0c6c-11e9-8048-78ff37cadd0e.PNG)  
 図４　ダイナミックレンジ変更後の濃度ヒストグラム
 
 また、上記の「ORG = uint8(ORG);」では画像を符号無し８ビット整数配列に変更している。
