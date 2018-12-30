@@ -37,7 +37,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 ![3](https://user-images.githubusercontent.com/46117925/50545462-a287af00-0c57-11e9-8ee7-8191b26bba8a.PNG)  
 図３　４階調画像
 
-
+![4](https://user-images.githubusercontent.com/46117925/50546229-88ee6380-0c67-11e9-8f61-6f35261bd39a.jpg)  
 図４　８階調画像
 
 以上の結果から階調が大きくなるほど鮮やかな画像になることが分かる。
