@@ -26,7 +26,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
  IMG4 = ORG>160;  
  IMG5 = ORG>192;  
  IMG6 = ORG>224;  
- IMG = IMG0 + IMG1 +IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
+ IMG = IMG0 + IMG1 +IMG2 + IMG3 + IMG4 + IMG5 + IMG6;  
  imagesc(IMG); colormap(gray); colorbar;  axis image;
  
 生成した２階調、４階調、８階調の画像をそれぞれ図２，３，４に示す。
